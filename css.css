@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+div.menu {
+  width: 100%;
+  height: 75px;
+  background-color: crimson;
+  line-height: 100px;
+}
+
+.menu > nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 75px;
+  font-size: large;
+  font-weight: bold;
+}
+
+div.content {
+  width: 100%;
+  height: auto;
+  background-color: lightsalmon;
+  padding: 20px;
+}
+
+div.mostFrequent {
+    margin-top: 40px;
+}
+
+div.form {
+  width: 20%;
+  margin: 150px auto;
+  background-color: #789dbc;
+  padding: 10px;
+  line-height: 50px;
+}

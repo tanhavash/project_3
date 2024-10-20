@@ -1,0 +1,12 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "main": "js.js",
+  "scripts": {
+    "test": "npx tailwindcss -i ./css.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
